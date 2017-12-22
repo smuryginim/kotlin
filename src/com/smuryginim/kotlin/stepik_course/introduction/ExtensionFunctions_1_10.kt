@@ -1,9 +1,5 @@
 package com.smuryginim.kotlin.stepik_course.introduction
 
-/**
- * @author ivsm0613
- * @date 20.12.2017
- */
 fun main(args: Array<String>) {
     val r = 1.r()
     println(r)
