@@ -1,6 +1,7 @@
 package com.smuryginim.kotlin.stepik_course.properties
 
-/**
- * @author ivsm0613
- * @date 25.12.2017
- */
+class PropertyExample() {
+    var counter = 0
+    var propertyWithCounter: Int? = null
+        set
+}

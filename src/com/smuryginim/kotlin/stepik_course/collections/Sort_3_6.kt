@@ -1,6 +1,4 @@
 package com.smuryginim.kotlin.stepik_course.collections
 
-/**
- * @author ivsm0613
- * @date 25.12.2017
- */
+// Return a list of customers, sorted by the ascending number of orders they made
+fun Shop.getCustomersSortedByNumberOfOrders(): List<Customer> = customers.sortedBy { it.orders.size }

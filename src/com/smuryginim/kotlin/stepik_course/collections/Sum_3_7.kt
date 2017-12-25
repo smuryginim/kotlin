@@ -1,6 +1,8 @@
 package com.smuryginim.kotlin.stepik_course.collections
 
-/**
- * @author ivsm0613
- * @date 25.12.2017
- */
+
+
+
+// Return the sum of prices of all products that a customer has ordered.
+// Note: the customer may order the same product for several times.
+fun Customer.getTotalOrderPrice(): Double = orders.flatMap { it.products }.sumByDouble { it.price }
